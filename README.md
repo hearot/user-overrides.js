@@ -1,4 +1,9 @@
-### 🟪 user.js (forked from the [arkenfox user.js](https://github.com/arkenfox/user.js))
-My personal `user.js` configuration file that controls Firefox settings - for a more technical breakdown and explanation, you can read more in the [wiki](https://github.com/arkenfox/user.js/wiki/2.1-User.js). See `user-overrides.js`.
+# 🟪 My custom user-overrides.js
+See [Arkenfox's user.js](https://github.com/arkenfox/user.js) and `user-overrides.js` for more information.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+### Steps to update user settings
+- Run `update_overrides.bat`/`update_overrides.sh` to update `user-overrides.js`;
+- Run `updater.bat`/`updater.sh` to update `user.js`;
+- Always run `prefsCleaner.bat`/`prefsCleaner.sh` after the updater.
