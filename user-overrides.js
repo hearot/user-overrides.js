@@ -19,6 +19,9 @@ user_pref("browser.tabs.groups.smart.userEnabled", false);
 user_pref("pdfjs.enableAltTextModelDownload", false); // "This prevents downloading the AI model unless the user opts in (by enabling the toggle to "Create alt text automatically" from "Image alt text settings" when viewing a PDF)"
 user_pref("pdfjs.enableGuessAltText", false); // (disabling this might be redundant when AltTextModelDownload is disabled)
 
-// disable passwords, forms & stuff
+// disable remembering passwords, forms & stuff
 user_pref("signon.rememberSignons", false);
 user_pref("browser.formfill.enable", false);
+
+// disable automatic translation popups
+user_pref("browser.translations.automaticallyPopup", false);
